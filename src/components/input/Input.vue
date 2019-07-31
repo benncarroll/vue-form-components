@@ -36,6 +36,7 @@
       :disabled="disabled"
       :readonly="readonly"
       :max="max"
+      :maxlength="max"
       :min="min"
       :autocomplete="[ autocomplete ? 'off' : 'on' ]"
       class="vue-input__inner"
